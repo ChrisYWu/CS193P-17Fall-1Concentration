@@ -12,6 +12,7 @@ class Concentration
     private(set) var cards = [Card]()
     private var startTime = Date()
     
+    
     var elapsedSeconds : Int
     {
         return Int(Date().timeIntervalSince(startTime))
