@@ -12,6 +12,8 @@
 		AACC91352183DB6D0087AF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC91332183DB6D0087AF0F /* Main.storyboard */; };
 		AACC91372183DB6E0087AF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACC91362183DB6E0087AF0F /* Assets.xcassets */; };
 		AACC913A2183DB6E0087AF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC91382183DB6E0087AF0F /* LaunchScreen.storyboard */; };
+		AACC9144218569500087AF0F /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC9143218569500087AF0F /* Concentration.swift */; };
+		AACC9146218631650087AF0F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC9145218631650087AF0F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AACC91362183DB6E0087AF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACC91392183DB6E0087AF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACC913B2183DB6E0087AF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACC9143218569500087AF0F /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		AACC9145218631650087AF0F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		AACC912E2183DB6D0087AF0F /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				AACC912F2183DB6D0087AF0F /* AppDelegate.swift */,
 				AACC91312183DB6D0087AF0F /* ViewController.swift */,
+				AACC9143218569500087AF0F /* Concentration.swift */,
+				AACC9145218631650087AF0F /* Card.swift */,
 				AACC91332183DB6D0087AF0F /* Main.storyboard */,
-				AACC91362183DB6E0087AF0F /* Assets.xcassets */,
-				AACC91382183DB6E0087AF0F /* LaunchScreen.storyboard */,
+				AACC91422184FA670087AF0F /* Supporting Files */,
 				AACC913B2183DB6E0087AF0F /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		AACC91422184FA670087AF0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACC912F2183DB6D0087AF0F /* AppDelegate.swift */,
+				AACC91362183DB6E0087AF0F /* Assets.xcassets */,
+				AACC91382183DB6E0087AF0F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			files = (
 				AACC91322183DB6D0087AF0F /* ViewController.swift in Sources */,
 				AACC91302183DB6D0087AF0F /* AppDelegate.swift in Sources */,
+				AACC9144218569500087AF0F /* Concentration.swift in Sources */,
+				AACC9146218631650087AF0F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +299,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWA95UCFV4;
+				DEVELOPMENT_TEAM = LU3JN774B5;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wupersonalteam.internal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpsg.internal.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWA95UCFV4;
+				DEVELOPMENT_TEAM = LU3JN774B5;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wupersonalteam.internal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpsg.internal.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
