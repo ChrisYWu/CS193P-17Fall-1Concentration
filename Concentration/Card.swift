@@ -9,7 +9,7 @@
 import Foundation
 
 struct Card {
-    
+    //
     var isFaceUp = false
     {
         didSet{
